@@ -18,6 +18,7 @@ import {BrokerService} from './services/broker-service';
         nav: new ViewChild('content')
     },
     providers: [HTTP_PROVIDERS, PropertyService, BrokerService]
+    <button menuClose ion-item><ion-icon item-left name="calculator"></ion-icon>Mortgage Calculator</button>
 })
 class MyApp {
 
